@@ -4,7 +4,7 @@
 *Lab Assignment 5
 *Lab Section B01
 *Completed By: Max Enns
-*Developmenet Date: Oct27th, 2024
+*Developmenet Date: Oct 27th, 2024
 */
 import java.util.ArrayList;
 
@@ -37,7 +37,7 @@ public class MyVector<E extends Number & Comparable<E>> {
     }
 
     public void performSort(){
-        //we'll figure it out once i implement the sorts
+        sorter.sort(storageM);
 
     }
 

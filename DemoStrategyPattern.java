@@ -1,5 +1,10 @@
-/* ENSF 480 - Lab 5 - Exercise A and B
- */
+/*
+*File Name: DemoStrategyPattern.java
+*Lab Assignment 5
+*Lab Section B01
+*Completed By: Max Enns
+*Developmenet Date: Oct 27th, 2024
+*/
 
 import java.util.Random;
 public class DemoStrategyPattern {

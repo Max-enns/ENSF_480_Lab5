@@ -1,8 +1,10 @@
-/* ENSF 480 - Lab 5 Exercise A and B
- * M. Moussavi, October 2022
- * 
- */
-
+/*
+*File Name: Item.java
+*Lab Assignment 5
+*Lab Section B01
+*Completed By: Max Enns
+*Developmenet Date: Oct 27th, 2024
+*/
 class Item <E extends Number & Comparable<E> >{
 	private E item;
 	public Item(E value) {
