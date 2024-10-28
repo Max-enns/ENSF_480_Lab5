@@ -1,6 +1,6 @@
 package exB;
 /*
-*File Name: MyVector.java
+*File Name: SelectionSorter.java
 *Lab Assignment 5
 *Lab Section B01
 *Completed By: Max Enns
