@@ -1,3 +1,4 @@
+package exB;
 /*
 *File Name: DemoStrategyPattern.java
 *Lab Assignment 5
@@ -51,5 +52,25 @@ public class DemoStrategyPattern {
 			v2.performSort();
 	        System.out.println("\nThe values in MyVector object v2 after performing InsertionSorter is:");
 			v2.display();	
+
+			 // -------- Adding Section to Test SelectionSorter --------
+
+        MyVector<Float> v3 = new MyVector<Float>(50);
+
+        for (int i = 4; i >= 0; i--) {
+            Item<Float> item = new Item<>(Float.valueOf(rand.nextFloat() * 100));
+            v3.add(item);
+        }
+
+        System.out.println("\nThe original values in v3 object are:");
+        v3.display();
+
+        v3.setSortStrategy(new SelectionSorter<Float>());
+        v3.performSort();
+
+        System.out.println("\nThe values in MyVector object v3 after performing SelectionSorter is:");
+        v3.display();
+		System.out.println("");
+
 	}
 }
