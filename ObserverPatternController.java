@@ -1,3 +1,10 @@
+/*
+*File Name: ObserverPatternController.java
+*Lab Assignment 5
+*Lab Section B01
+*Completed By: Max Enns
+*Developmenet Date: Oct 27th, 2024
+*/
 
 public class ObserverPatternController {
  	public static void main(String []s) {
